@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve will get the inverse of the function with all the data set before
 
 cacheSolve <- function(x, ...) {
   
@@ -35,6 +35,7 @@ cacheSolve <- function(x, ...) {
   i
 }
 
+##Here we checked our function if it´s really good
 Matrix <- matrix(1:16, 4, 4)
 MatrixSol <- makeCacheMatrix(Matrix)
 cacheSolve(MatrixSol)
